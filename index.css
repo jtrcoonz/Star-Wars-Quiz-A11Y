@@ -1,0 +1,125 @@
+*, body {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  background-image: url("http://getwallpapers.com/wallpaper/full/1/4/7/29914.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  color: #FFFF82;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 46px;
+}
+
+.container h2 {
+  margin-top:120px;
+  margin-bottom: 120px;
+  font-size: 26px;
+}
+
+.container button {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 36px;
+}
+
+.incorrect-feedback-page h2, .correct-feedback-page h2{
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+h3 {
+  max-width: 800px;
+}
+
+h3, h2 {
+  font-size: 26px;
+}
+
+span {
+  font-size: 22px;
+}
+
+#js-start-button, #js-submit-button, #js-next-button, #js-restart-button {
+  background-color: black;
+  color: #FFFF82;
+}
+
+legend {
+  display: none;
+}
+
+label {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px
+}
+
+fieldset {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tracker {
+  width: 100%;
+}
+
+#question-counter {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+#score-counter {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+
+.correct-feedback-page h2, .incorrect-feedback-page h2 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.correct-feedback-page iframe, .incorrect-feedback-page iframe {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.end-page h2 {
+  font-size: 36px;
+}
+
+#question-format 
+
+
+
+
+
+
+
+
+
