@@ -4,11 +4,11 @@ let correctAnswers = 0;
 
 function questionTemplate(correctAnswers, question, questionsAnswered) {
   return `
-    <main role="main" id="question-format">
+    <section role="region" id="question-format">
      <form>
-        <h3>${question.text}</h3>
-        <fieldset>
-          <legend>Question 1</legend>
+        <h1 id="question-content">${question.text}</h1>
+        <fieldset role="radiogroup">
+          <legend>Select One...</legend>
           <label>
             <input type="radio" name="option">
             <span>${question.ans1}</span>
@@ -107,7 +107,7 @@ const correctFeedback = `
   <section role="region" class="correct-feedback-page">
     <div style="width:100%;height:100%;">
       <h2>Correct! BB-8 approves.</h2>
-      <iframe src="https://giphy.com/embed/3o7abB06u9bNzA8lu8" width="75%" height="75%" frameBorder="0" class="correct-gif">
+      <iframe src="https://giphy.com/embed/3o7abB06u9bNzA8lu8" title="bb-8-thumbs-up" width="75%" height="75%" frameBorder="0" class="correct-gif">
       </iframe>
     </div>
     <div>
@@ -125,7 +125,7 @@ function incorrectFeedbackTemplate(questionNum) {
     <section role="region" class="incorrect-feedback-page">
       <div style="width:100%;height:100%px;">
         <h2>Oh, no! The correct answer was ${ANSWERS[questionNum - 1]}. Looks like The Empire won this round...</h2>
-        <iframe src="https://giphy.com/embed/AcPT09jtaLbNK" width="75%" height="75%" frameBorder="0" class="incorrect-gif">
+        <iframe src="https://giphy.com/embed/AcPT09jtaLbNK" title="alderaan-destruction" width="75%" height="75%" frameBorder="0" class="incorrect-gif">
         </iframe>
       </div>
       <div>

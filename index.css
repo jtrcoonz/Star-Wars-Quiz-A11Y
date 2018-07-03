@@ -51,11 +51,11 @@ body {
   margin-bottom: 0
 }
 
-h3 {
+h1 {
   max-width: 800px;
 }
 
-h3, h2 {
+#question-content, h2 {
   font-size: 26px;
 }
 
@@ -69,7 +69,7 @@ span {
 }
 
 legend {
-  display: none;
+  color: transparent;
 }
 
 label {
